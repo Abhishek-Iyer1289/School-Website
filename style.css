@@ -44,6 +44,10 @@ h1 {
     position: absolute;
 }
 
+.photo:hover{
+    transform: scale(50);
+}
+
 .footer{
     background-color: #ffffff;
     display: flex;
@@ -60,4 +64,5 @@ a:visited{
 
 a{
     flex-direction: column;
+    text-decoration: none;
 }
